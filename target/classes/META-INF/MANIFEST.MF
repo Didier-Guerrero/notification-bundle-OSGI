@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1719790351319
+Build-Jdk: 22.0.1
+Built-By: didie
+Bundle-Activator: com.example.notifications.Activator
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: notification-bundle
+Bundle-SymbolicName: com.example.notification-bundle
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.notifications;uses:="org.osgi.framework";ver
+ sion="1.0.0"
+Export-Service: com.example.notifications.NotificationService;osgi.servi
+ ce.blueprint.compname=notificationService
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-5.1.1.202006162103

@@ -1,0 +1,3 @@
+com\example\notifications\NotificationService.class
+com\example\notifications\Activator.class
+com\example\notifications\NotificationServiceImpl.class

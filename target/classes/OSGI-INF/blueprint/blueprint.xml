@@ -1,0 +1,7 @@
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+    <!-- Definición de beans -->
+    <bean id="notificationService" class="com.example.notifications.NotificationServiceImpl"/>
+
+    <!-- Registro del servicio -->
+    <service ref="notificationService" interface="com.example.notifications.NotificationService"/>
+</blueprint>
